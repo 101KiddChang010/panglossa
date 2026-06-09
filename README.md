@@ -4,29 +4,10 @@ A nx monorepo that increases application development velocity. Pick your languag
 
 ## Prerequisites
 
-- [NX]() >= 
+- [NX](https://nx.dev/) >= 22.7.5
 - [Node.js](https://nodejs.org) >= 20.11
 - [pnpm](https://pnpm.io) >= 9.0
 - [Dagger CLI](https://docs.dagger.io/install)
-
-## Getting started
-
-```bash
-# Install dependencies
-pnpm install
-
-# Build everything
-bazel build //...
-
-# Run tests
-bazel test //...
-
-# Scaffold a new app
-node platform/generators/new-app.mjs --name=my-app --type=app
-
-# Scaffold a new lab
-node platform/generators/new-app.mjs --name=my-experiment --type=lab
-```
 
 ## Architecture
 

@@ -6,3 +6,5 @@ packages:
   - "platform/tooling"
   - "platform/generators"
   - "platform/ci"
+allowBuilds:
+  nx: true

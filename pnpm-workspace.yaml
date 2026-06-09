@@ -1,0 +1,8 @@
+packages:
+  - "products/apps/*"
+  - "products/labs/*"
+  - "shared/utils/*"
+  - "shared/libs/*"
+  - "platform/tooling"
+  - "platform/generators"
+  - "platform/ci"
